@@ -1,4 +1,4 @@
-const SPREADSHEET_ID = 'PUT_YOUR_SHEET_ID_HERE'; // Điền ID Spreadsheet
+const SPREADSHEET_ID = '1OnkG0Eh80nAv7Z8R-EtyLMHcwwqWFQ1LSTBeFyMjwTE'; // Điền ID Spreadsheet
 const ALLOWED_ORIGINS = ['*']; // khi deploy thực tế: đổi '*' -> 'https://your-domain.vercel.app'
 
 function getSS() { return SpreadsheetApp.openById(SPREADSHEET_ID); }
