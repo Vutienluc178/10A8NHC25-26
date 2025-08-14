@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'YOUR_APPS_SCRIPT_WEB_APP_URL'; // Dán URL web app
+const SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLiY710Vku9YniN1r328s5r7d9nZMdkdoHRaBeEQ4zqKkDpIqBluk2-zbHz_5U1u8cg-nprRFeaet0UiQuC_sEblkVjBKslidUI_HTrjIMiVbRkfhJg4sucgDS9qRWlRX6IHP2apXTsu0pTodvQo4kokI8l1OktHWeWs3NwGp2OOpTzH6PX_o4mn3dI9whn6hiuE6Q-71BwEUw1EgxOYuyeQNDyXkpUxkPPnxvUZD_1372FJW9WF4zV-MRkYZ5lRvJKN2nuNuJEIahY3V9ktTczQ6IVRKm3Rz4ByAXfG&lib=MWyxI5d25Sy55M9_f8ezk1TcJCrGNgL59'; // Dán URL web app
 const APP = document.getElementById('app');
 
 async function api(action, params = {}) {
