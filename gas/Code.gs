@@ -1,5 +1,5 @@
 const SPREADSHEET_ID = '1OnkG0Eh80nAv7Z8R-EtyLMHcwwqWFQ1LSTBeFyMjwTE'; // Điền ID Spreadsheet
-const ALLOWED_ORIGINS = ['*']; // khi deploy thực tế: đổi '*' -> 'https://your-domain.vercel.app'
+const ALLOWED_ORIGINS = ['https://vutienluc178.github.io/10A8NHC25-26/']; // khi deploy thực tế: đổi '*' -> 'https://your-domain.vercel.app'
 
 function getSS() { return SpreadsheetApp.openById(SPREADSHEET_ID); }
 function getSheet(name) { return getSS().getSheetByName(name); }
