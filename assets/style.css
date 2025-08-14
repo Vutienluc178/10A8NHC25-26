@@ -1,0 +1,10 @@
+:root { --brand: #1d4ed8; }
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+.bg-primary { background-color: var(--brand) !important; }
+.text-brand { color: var(--brand); }
+.btn-brand { background-color: var(--brand); color: #fff; }
+.card-hover:hover { transform: translateY(-2px); transition: .2s; }
+img[loading="lazy"] { filter: saturate(1.02); }
+.hero { background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%); color: #fff; border-radius: 1rem; }
+.badge-soft { background: #e7f0ff; color: #1d4ed8; }
+.table thead th { position: sticky; top: 0; background: #fff; z-index: 1; }
